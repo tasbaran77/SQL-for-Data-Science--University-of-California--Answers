@@ -1,0 +1,50 @@
+Q1. This statement will return an error. Please list why.
+
+SELECT
+TrackID
+Name
+AlbumID
+FROM tracks
+
+ ANSWER 1:
+
+It's missing comma after "TrackID", and "Name"
+
+------------------------------------------------------------------------------------------------------------------
+
+Q2. In the ER diagram below, the infinity symbol is representing a "many" relationship and the key is representing "one". 
+Select all the tables that have a one-to-many relationship.
+
+ ANSWER 2:
+
+Artist to Albums
+Customers to Invoices
+Employees to Customers
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q3. When using SQLite, what datatypes can you assign to a column when creating a new table? Select all that apply.
+
+ ANSWER 3:
+
+Integer
+Real
+Null
+Text
+
+-------------------------------------------------------------------------------------------------------------------
+
+
+Q4. Primary Keys must be unique values.
+
+ ANSWER 4:
+
+True
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q5. What is the query below missing in order to execute?
+
+ ANSWER 5:
+
+Select

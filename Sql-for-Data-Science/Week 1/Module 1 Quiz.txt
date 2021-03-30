@@ -1,0 +1,89 @@
+Q1. Select the jobs below that may use SQL in their work (select all that apply).
+
+ ANSWER 1:
+
+Data Scientist
+DBA
+Data Analyst
+QA Engineer
+Backend Developer
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q2. How does a data scientist and DBA differ in how they use SQL?
+
+ ANSWER 2:
+
+DBAs manage the database for other users.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q3. Which of the following statements are true of Entity Relationship (ER) Diagrams?
+
+ ANSWER 3:
+
+They show you the relationships between tables.
+They identify the Primary Keys
+They are usually a representation of a business process.
+They usually are represented in a visual format.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q4. Select the query below that will retrieve all columns from the customers table.
+
+ ANSWER 4:
+
+SELECT * FROM customers
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q5. Select the query that will retrieve only the Customer First Name, Last Name, and Company.
+
+ ANSWER 5:
+
+SELECT 
+FirstName
+,LastName
+,Company
+FROM customers
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q6. The ER diagram below is depicting what kind of relationship between the EMPLOYEES and CUSTOMERS tables?
+
+ ANSWER 6:
+
+One-to-many
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q7. The data model depicted in the ER diagram below could be described as a _______________.
+
+ ANSWER 7:
+
+Relational Mode
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q8. When using the "CREATE TABLE" command and creating new columns for that table, which of the following statements is true?
+
+ ANSWER 8:
+
+You must  assign a data type to each column
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q9. Look at the values in the two columns below. Based on the values in each column, which column could potentially be used as a primary key?
+
+ ANSWER 9:
+
+Column 1
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q10.In order to retrieve data from a table with SQL, every SQL statement must contain?
+
+ ANSWER 10:
+
+SELECT
+

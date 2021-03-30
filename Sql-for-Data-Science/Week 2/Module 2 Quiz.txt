@@ -1,0 +1,92 @@
+Q1. Filtering data is used to do which of the following? (select all that apply)
+
+ ANSWER 1:
+
+Removes unwanted data in a calculation
+Reduces the strain on the client application
+Helps you understand the contents of your data
+Narrows down the results of the data. 
+Reduce the time it takes to run the query
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q2. You are doing an analysis on musicians that start with the letter “K”. Select the correct query that would retrieve only the artists whose name starts with this letter. 
+
+ ANSWER 2:
+
+SELECT name
+FROM Artists
+WHERE name LIKE ‘K%’;
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q3. A null and a zero value effectively mean the same thing. True or false?
+
+ ANSWER 3:
+
+False
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q4. Select all that are true regarding wildcards (Select all that apply.)
+
+ ANSWER 4:
+
+Wildcards at the end of search patterns take longer to run
+Wildcards take longer to run compared to a logical operator
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q5. Select the statements below that ARE NOT true of the ORDER BY clause (select all that apply).
+
+ ANSWER 5:
+
+Can be anywhere in the select statement
+Cannot sort by a column not retrieved
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q6. Select all of the valid math operators in SQL (select all that apply).
+
+ ANSWER 6:
+
+* (multiplication)
++ (addition)
+/ (division)
+- (subtraction)
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q7. Which of the following is an aggregate function? (select all that apply)
+
+ ANSWER 7:
+
+MAX()
+COUNT()
+MIN()
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q8. Which of the following is true of GROUP BY clauses? (Select all that apply.)
+
+ ANSWER 8:
+
+NULLs will be grouped together if your Group By column contains NULLs
+GROUP BY clauses can contain multiple columns
+Every column in your select statement may/can be present in a group by clause, except for aggregated calculations.
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q9. Select the true statement below.
+
+ ANSWER 9:
+
+HAVING filters after the data is grouped. 
+
+-------------------------------------------------------------------------------------------------------------------
+
+Q10. Which is the correct order of occurrence in a SQL statement?
+
+ ANSWER 10:
+
+select, from, where, group by, having
